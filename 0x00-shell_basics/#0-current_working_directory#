@@ -1,0 +1,11 @@
+#!/bin/bash
+pwd
+ls -a ~
+0-current_working_directory
+chmod u+x 0-current_working_directory
+git config user.email cglyrine@gmail.com
+git config user.name GlyrineCherotich
+git add .
+ git commit -m 'working directory'
+ git push
+ 
